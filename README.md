@@ -6,25 +6,25 @@ Hello and welcome to my Time Series Forecasting Project! This is a personal proj
 
 ## Project Overview
 
-The main aim of this project is to compare traditional time series forecasting models with the latest neural networks, determining their efficacy in different scenarios, especially in non-seasonal data contexts. A significant part of this project involved creating a dataset from scratch, meticulously selecting and processing data from over 50 datasets in the OPEC repository, which included various factors affecting oil price and demand【9†source】【16†source】.
+The main aim of this project is to compare traditional time series forecasting models with the latest neural networks, determining their efficacy in different scenarios, especially in non-seasonal data contexts. A significant part of this project involved creating a dataset from scratch, meticulously selecting and processing data from over 50 datasets in the OPEC repository, which included various factors affecting oil price and demand.
 
 ## Challenges and Methodology
 
-One of the primary challenges was the creation and handling of the dataset. The data spans from 1983 to 2022 and includes key metrics like GDP, population, exports, oil trade, spot prices, etc. A comprehensive Exploratory Data Analysis (EDA) was conducted to understand the data and identify relevant features. This project tested five different models: a traditional machine learning model (SVR), a BILSTM, a CNN, and two traditional time series forecasting models - ARIMA and Holt-Winters【11†source】【13†source】【21†source】.
+One of the primary challenges was the creation and handling of the dataset. The data spans from 1983 to 2022 and includes key metrics like GDP, population, exports, oil trade, spot prices, etc. A comprehensive Exploratory Data Analysis (EDA) was conducted to understand the data and identify relevant features. This project tested five different models: a traditional machine learning model (SVR), a BILSTM, a CNN, and two traditional time series forecasting models - ARIMA and Holt-Winters.
 
 ## Key Findings
 
-- **Model Performance**: The Holt-Winters linear model outperformed others, including ARIMA, neural networks, and general machine learning models. This was particularly notable since the dataset was non-seasonal, and these models adapted well to this kind of data【14†source】.
+- **Model Performance**: The Holt-Winters linear model outperformed others, including ARIMA, neural networks, and general machine learning models. This was particularly notable since the dataset was non-seasonal, and these models adapted well to this kind of data.
 
-- **Data Insights**: The analysis revealed fluctuations in spot prices, production, and demand, reflecting global economic and political events. Country-specific analyses also showcased diverse economic and resource management strategies【20†source】.
+- **Data Insights**: The analysis revealed fluctuations in spot prices, production, and demand, reflecting global economic and political events. Country-specific analyses also showcased diverse economic and resource management strategies.
 
 ## Future Scope
 
-The project's future scope includes improving the Root Mean Squared Error (RMSE) of our models and possibly integrating additional features from other repositories. Continuous enhancement of the forecasting models and exploring new methodologies remain core objectives【26†source】.
+The project's future scope includes improving the Root Mean Squared Error (RMSE) of our models and possibly integrating additional features from other repositories. Continuous enhancement of the forecasting models and exploring new methodologies remain core objectives.
 
 ## Conclusion
 
-This project was a deep dive into the world of time series forecasting, providing valuable insights into oil price and demand prediction. It serves as a starting point for countries and companies worldwide to utilize these findings for their pricing strategies and demand estimation【10†source】.
+This project was a deep dive into the world of time series forecasting, providing valuable insights into oil price and demand prediction. It serves as a starting point for countries and companies worldwide to utilize these findings for their pricing strategies and demand estimation.
 
 ## File Structure
 
